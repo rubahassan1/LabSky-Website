@@ -1,0 +1,45 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+
+.navbar-brand, .text-primary{
+    color: #0a58ca !important;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.btn-primary{
+    background-color: #0a58ca;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #257dfd !important;
+  }
+
+.nav-link:hover{
+    color: #0a58ca;
+}
+
+.container1 {
+    margin-top: 20px;
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.list-group-item a {
+    text-decoration: none;
+    color: #0a58ca;
+}
+
+.list-group-item a:hover {
+    text-decoration: underline;
+}

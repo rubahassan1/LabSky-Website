@@ -1,0 +1,94 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+
+.navbar-brand, .text-primary{
+    color: #0a58ca !important;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.btn-primary{
+    background-color: #0a58ca;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #257dfd !important;
+  }
+
+.nav-link:hover{
+    color: #0a58ca;
+}
+
+.welcome {
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    color: #0a58ca;
+}
+
+.info-container {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    margin: 5% auto;
+}
+
+.doctor-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.details {
+    flex: 1;
+}
+
+.name {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+
+.email {
+    font-size: 18px;
+    color: #777;
+    margin: 10px 0;
+}
+
+.tests {
+    margin-top: 20px;
+}
+
+.tests h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.tests ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.tests li {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}

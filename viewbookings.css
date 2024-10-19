@@ -1,0 +1,51 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+
+.navbar-brand, .text-primary{
+    color: #0a58ca !important;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.btn-primary{
+    background-color: #0a58ca;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #257dfd !important;
+  }
+
+.nav-link:hover{
+    color: #0a58ca;
+}
+
+.bookings {
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+    max-width: 100%;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.table thead {
+    background: #0a58ca;
+    color: #fff;
+}
+
+.table th, .table td {
+    vertical-align: middle;
+}
+
+.btn-success, .btn-danger {
+    margin-right: 5px;
+}

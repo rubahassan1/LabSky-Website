@@ -1,0 +1,60 @@
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-image: linear-gradient(180deg, #c4b6fd, #93acfc);
+}
+
+.navbar-brand, .text-primary{
+    color: #0a58ca !important;
+}
+
+.nav-link{
+    font-weight: 500;
+}
+
+.btn-primary{
+    background-color: #0a58ca;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #257dfd !important;
+  }
+
+.nav-link:hover{
+    color: #0a58ca;
+}
+
+.title{
+    padding: 20px;
+    align-items: center;
+    text-align: center;
+    color: #0a58ca;
+}
+
+
+main{
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.tips{
+    margin-bottom: 30px;
+    background-image: linear-gradient(180deg, #6b7ae8, #5972c5);
+    color: #ffff;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to bottom,#114668,#0e3c59,#06293f);
+    color: white;
+}
+
+ul{
+    margin-top: 5px;
+}
